@@ -1,6 +1,5 @@
 #CS 161 Week 1 Assignment
 
-
 #Part 1
 sibling_type = "Sister" #I do not have any pets, so I am using my sister instead
 sibling_name = "Hannah"
