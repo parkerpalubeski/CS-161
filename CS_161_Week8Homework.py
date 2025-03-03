@@ -60,11 +60,11 @@ def factorial_iterative(num):
     return num
 def factorials(num):
     start = time.perf_counter_ns()
-    print(f"The recursive function returns {factorial_recursive(num)}")
+    print(f"The recursive function for {num} returns {factorial_recursive(num)}")
     stop = time.perf_counter_ns()
     print("Time elapsed: ", stop - start)
     start = time.perf_counter_ns()
-    print(f"The iterative function returns {factorial_iterative(num)}")
+    print(f"The iterative function {num} returns {factorial_iterative(num)}")
     stop = time.perf_counter_ns()
     print("Time elapsed: ", stop - start)
 
