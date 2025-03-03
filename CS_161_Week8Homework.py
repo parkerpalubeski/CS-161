@@ -71,7 +71,3 @@ def factorials(num):
 factorials(3)
 factorials(10)
 factorials(25)
-
-
-
-
