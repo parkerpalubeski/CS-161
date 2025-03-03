@@ -10,7 +10,7 @@ if word2 == word1.upper():
     print("Stop shouting please!")
 
 #Task 2:
-#I had figured that creating a vowels list and simply removing said vowel would be easier than writing out five if statements for vowel
+#I had figured that creating a vowels list and simply removing said vowel would be easier and more concise than writing out five if statements for each vowel
 def Vowel_Counter(word):
     counter = 0
     vowels_list = ["a", "e", "i", "o", "u"]
