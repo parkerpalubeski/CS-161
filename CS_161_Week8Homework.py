@@ -47,6 +47,7 @@ def checkEmail():
 checkEmail()
 
 #Task 5:
+import time
 def factorial_recursive(num):
     if num > 1:
         factorial = num * factorial_recursive(num - 1)
@@ -57,9 +58,20 @@ def factorial_iterative(num):
     for i in range(1, num):
         num = num * i
     return num
+def factorials(num):
+    start = time.perf_counter_ns()
+    print(f"The recursive function returns {factorial_recursive(num)}")
+    stop = time.perf_counter_ns()
+    print("Time elapsed: ", stop - start)
+    start = time.perf_counter_ns()
+    print(f"The iterative function returns {factorial_iterative(num)}")
+    stop = time.perf_counter_ns()
+    print("Time elapsed: ", stop - start)
 
-integer = int(input("Enter a number "))
-print(f"The recursive function returns {factorial_recursive(integer)}")
-print(f"The iterative function returns {factorial_iterative(integer)}")
+factorials(3)
+factorials(10)
+factorials(25)
+
+
 
 
