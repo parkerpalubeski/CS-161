@@ -62,3 +62,5 @@ def factorial_iterative(num):
 integer = int(input("Enter a number "))
 print(f"The recursive function returns {factorial_recursive(integer)}")
 print(f"The iterative function returns {factorial_iterative(integer)}")
+
+
