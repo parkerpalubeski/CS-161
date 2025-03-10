@@ -59,7 +59,7 @@ print("\n\n")
 
 #Task 3: Python Class Square
 
-class Square():
+class Square:
     def __init__(self, side):
         self.side = side
     def squarePerimeter(self):
